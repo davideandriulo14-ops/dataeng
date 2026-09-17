@@ -17,9 +17,7 @@
 # META         }
 # META       ]
 # META     },
-# META     "warehouse": {
-# META       "known_warehouses": []
-# META     }
+# META     "warehouse": {}
 # META   }
 # META }
 
