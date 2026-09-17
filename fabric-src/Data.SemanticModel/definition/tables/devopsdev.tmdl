@@ -1,0 +1,20 @@
+table devopsdev
+	lineageTag: 145bb5c1-cbc3-4fee-ae53-4c5ab4c5855d
+	sourceLineageTag: [dbo].[devopsdev]
+
+	column Prop_0
+		dataType: string
+		lineageTag: 83c46ade-3582-4c25-b8cf-360223b433a9
+		sourceLineageTag: Prop_0
+		summarizeBy: none
+		sourceColumn: Prop_0
+
+		annotation SummarizationSetBy = Automatic
+
+	partition devopsdev = entity
+		mode: directLake
+		source
+			entityName: devopsdev
+			schemaName: dbo
+			expressionSource: 'DirectLake - lh_edu'
+
