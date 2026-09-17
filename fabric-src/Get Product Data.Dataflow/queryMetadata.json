@@ -5,7 +5,18 @@
   },
   "name": "Get Product Data",
   "queryGroups": [],
-  "documentLocale": "it",
-  "queriesMetadata": {},
-  "connections": []
+  "documentLocale": "it-IT",
+  "queriesMetadata": {
+    "products": {
+      "queryId": "569f6067-4509-4f84-afce-f226c31c3d17",
+      "queryName": "products"
+    }
+  },
+  "connections": [
+    {
+      "path": "https://raw.githubusercontent.com/MicrosoftLearning/dp-data/refs/heads/main/products.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"80cdbc4a-2a0e-4fad-9b09-0020c22e7867\",\"DatasourceId\":\"23c688f1-9ded-463b-a57f-91b121ded028\"}"
+    }
+  ]
 }
